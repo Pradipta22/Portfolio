@@ -137,6 +137,7 @@ body {
   position: relative;
   z-index: 2;
   cursor: pointer;
+  
 }
 
 .wrapperL .logoH span {
@@ -608,7 +609,7 @@ label.error {
 .copyright .bi {
   color: #ff0000;
 }
-
+/*---*/
 nav .bi{
   display: none;
 }

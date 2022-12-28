@@ -2,8 +2,8 @@
 
 
 @media only screen and (max-width: 600px) {
-  body{
-    overflow-x: hidden;
+  .bodycontainer {
+   overflow: hidden;
   }
   nav .bi {
     display: block;

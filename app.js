@@ -20,4 +20,11 @@ $(function() {
       .catch(error => console.error('Error!', error.message))
   })
  ;
+ var sidemenu = document.getElementById("sidemenu");
  
+ function openmenu(){
+  sidemenu.style.left = "0";
+ }
+ function closemenu(){
+  sidemenu.style.left = "-200px";
+ }

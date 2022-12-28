@@ -42,6 +42,7 @@ body {
   padding: 0.5em;
 }
 
+
 .list a {
   position: relative;
   text-decoration: none;
@@ -511,13 +512,16 @@ label.error {
 }
 
 .projectBox {
-  display: flex;
-  margin-left: 60px;
+  display: grid;
+  grid-template-columns: repeat(3 , 400px);
+  align-items: center;
+  justify-content: center;
 }
 
 .image {
   position: relative;
   width: 400px;
+  
 }
 
 .image img {
@@ -605,33 +609,6 @@ label.error {
   color: #ff0000;
 }
 
-/*------------------css for small screens-----------------------------------*/
 nav .bi{
   display: none;
-}
-@media only screen and (max-width: 600px){
-  
-  nav .bi{
-    display: block;
-    font-size: 25px;
-  }
-  nav .navLi{
-    background: #ff004f;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 200px;
-    height: 100vh;
-    padding-top: 50px;
-  }
-  nav .list{
-    display: block;
-    margin: 20px;
-  }
-  nav .bi{
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
-  }
 }

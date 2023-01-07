@@ -237,7 +237,8 @@ body {
 }
 
 .aboutText {
-  margin-left: 120px;
+  font-size: 18px;
+  font-weight: 300px;
   margin-top: 40px;
 }
 
@@ -267,7 +268,7 @@ body {
 /*<!--------------------------------edu------------------------------->*/
 
 .rTitle {
-  margin-top: -170px;
+  margin-top: -100px;
   text-align: center;
   font-size: 60px;
 }
@@ -282,7 +283,7 @@ body {
 .eduText {
   border: 3px solid #262626;
   background-color: #262626;
-  border-radius: 20px;
+  border-radius: 40px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   width: 300px;
   height: 300px;
@@ -304,7 +305,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 .containerProgress {
@@ -323,11 +324,11 @@ body {
 
 .containerProgress .pBox {
   width: 100%;
-  border-radius: 30px;
+  border-radius: 20px;
   margin-left: 100px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background: #262626;
 }
-
 .chartText {
   font-size: 26px;
   font-weight: 300;

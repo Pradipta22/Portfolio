@@ -19,7 +19,33 @@ body {
   height: 100vh;
 
 }
-
+.changeBg{
+  font-weight: 200px;
+  font-size: 20px;
+}
+.buttonc{
+  width: 15%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  cursor: pointer;
+}
+#black{
+  background: #1a1a00;
+  flex: 1;
+  color: #1a1a00;
+}
+#white{
+  background: #999966;
+  flex: 1;
+  color: #999966;
+}
+#grey{
+  background: #bdc3c7;
+  flex: 1;
+  color: #bdc3c7;
+}
 .nav {
   cursor: pointer;
 

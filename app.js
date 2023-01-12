@@ -28,3 +28,10 @@ $(function() {
  function closemenu(){
   sidemenu.style.left = "-200px";
  }
+ const bgchange = (id) =>{
+  
+  document.body.style.background = document.getElementById(id).innerHTML
+  
+ 
+ }
+ 

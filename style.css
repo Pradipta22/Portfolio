@@ -559,9 +559,7 @@ label.error {
   height: 400px;
   padding: 15px 15px;
 }
-#img3{
-  display: none;
-}
+
 .image__overlay {
   position: absolute;
   top: 0;

@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #262b2e;
   color: white;
   overflow-x: hidden;
   font-family: 'PT Sans', sans-serif;
@@ -95,7 +95,6 @@ body {
 .list a:hover::after {
   width: 100%;
 }
-
 .headerText {
   position: absolute;
   left: 300px;
@@ -103,6 +102,7 @@ body {
   height: 40px;
   padding: 5px;
   margin: 5px 10px;
+  
 }
 
 .headImageBox img {

@@ -187,7 +187,10 @@
     height: 300px;
     padding: 15px 15px;
   }
-
+  .image__overlay {
+    width: 75%;
+    height: 300px;
+  }
   /*<!--------------------------------edu------------------------------->*/
 
   .rTitle {
@@ -222,11 +225,14 @@
     border-radius: 30px;
   }
   
-  
-
+  /*----------form-------------*/
+   .content{
+    margin-top: -110px;
+   }
   /*---------------Footer------------------*/
   .copyright {
-    width: 330px;
+    margin-top: -150px;
+    width: 90%;
   }
 
 }

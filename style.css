@@ -380,6 +380,7 @@ left: 0;
 .text-box small{
   display: inline-block;
   margin-bottom: 15px;
+  font-weight: 400;
 }
 .left-cointainer-arrow{
   height: 0;

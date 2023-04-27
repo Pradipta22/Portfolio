@@ -13,13 +13,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./mobile.css">
-
+  <!-- <link rel="stylesheet" href="./styleo.scss"> -->
 </head>
 <title>PORTFOLIO</title>
 </head>
 
 <body>
   <!---------------------header-------------------->
+  <header>
   <div id="header">
     <div class="bodycontainer">
 
@@ -103,7 +104,7 @@
       <img src="./img/IMG_20210712_151814-01 (1) (1).png" alt="">
     </div>
   </div>
-
+</header>
   <!---------------------------end------------------------------>
   <!----------------------about-------------------------->
   <div id="about">
@@ -161,30 +162,42 @@
       <div class="rTitle">
         <p>Education</p>
       </div>
-      <div class="eduBox">
-        <div class="eduText">
-          <span>
-            <h5>2017--2021</h5>
-          </span>
-          <h1>BTECH(ETC)</h1>
-          <h4>Trident Academy of Technology</h4>
-          <h5>Avg-76%</h5>
+      <div class="timeline">
+        <div class="containere left-container">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+            <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+          </svg>
+          <div class="text-box">
+            <h2>BTECH</h2>
+            <small>2017-2021</small>
+            <p>Trident Academy of Technology..</p>
+            <span class="left-cointainer-arrow"></span>
+          </div>
         </div>
-        <div class="eduText">
-          <span>
-            <h5>2015--2017</h5>
-          </span>
-          <h1>Science(PCM-IT)</h1>
-          <h4>Gayatri +2 Science College</h4>
-          <h5>Avg-60%</h5>
+        <div class="containere right-container">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0v-2z"/>
+            <path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+          </svg>
+          <div class="text-box">
+            <h2>+2</h2>
+            <small>2017-2021</small>
+            <p>Trident Academy of Technology..</p>
+            <span class="right-cointainer-arrow"></span>
+          </div>
         </div>
-        <div class="eduText">
-          <span>
-            <h5>2014--2015</h5>
-          </span>
-          <h1>Matriculation</h1>
-          <h4>St.Thomas Convent School</h4>
-          <h5>Avg-82%</h5>
+        <div class="containere left-container">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+            <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+          </svg>
+          <div class="text-box">
+            <h2>10th</h2>
+            <small>2017-2021</small>
+            <p>Trident Academy of Technology..</p>
+            <span class="left-cointainer-arrow"></span>
+          </div>
         </div>
       </div>
     </div>

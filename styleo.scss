@@ -1,0 +1,16 @@
+$color-pointer: rgba(57, 255, 20, 0.3);
+$height-width: 20px;
+
+header {
+  font-size: $height-width * 2;
+} 
+.trail {
+            position: absolute;
+            height: $height-width;
+            width: $height-width;
+            border-radius: $height-width / 2;
+           background-color: $color-pointer;
+        }
+body {
+  background-color: #000000;
+}

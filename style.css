@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-
+@import 'styleo';
 * {
   margin: 0;
   padding: 0;
@@ -291,37 +291,119 @@ body {
 }
 
 /*<!--------------------------------edu------------------------------->*/
-
-.rTitle {
-  margin-top: -100px;
+.rTitle {     
   text-align: center;
   font-size: 60px;
 }
-
-.eduBox {
-  display: grid;
-  grid-template-columns: repeat(3, 400px);
-  align-items: center;
-  justify-content: center;
+.timeline{
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
 }
-
-.eduText {
-  border: 3px solid #262626;
-  background-color: #262626;
-  border-radius: 40px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  width: 300px;
-  height: 300px;
-  padding: 20px 20px;
-  margin: 15px 80px;
-  transition: transform 0.5s;
+.containere{
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+  animation: movedown 1s linear forwards;
+  opacity: 0;
 }
-
-.eduText:hover {
-  background-color: #ff004f;
-  transform: translatey(-15px);
+@keyframes movedown {
+  0%{
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
-
+.containere:nth-child(1){
+  animation-delay: 0s;
+}
+.containere:nth-child(2){
+  animation-delay: 2s;
+}
+.containere:nth-child(3){
+  animation-delay: 4s;
+}
+.text-box{
+  padding: 20px 30px;
+  background: #fff;
+  position: relative;
+  border-radius: 6px;
+  font-size: 20px;
+  color: #1a1a00;
+}
+.left-container{
+left: 0;
+}
+.right-container{
+ left: 50%;
+}
+.containere svg{
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  right: -20px;
+  top: 32px;
+  z-index: 10;
+}
+.right-container svg{
+  left: -20px;
+ }
+.timeline::after{
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+  animation: moveline 6s linear forwards;
+}
+@keyframes moveline{
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 100%;
+  }
+}
+.text-box h2{
+  font-weight: 600;
+}
+.text-box small{
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.left-cointainer-arrow{
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #fff;
+  right: -14px;
+}
+.right-cointainer-arrow{
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-left: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #fff;
+  left: -14px;
+}
 /*<!-------------------------progessbar------------------------------------>*/
 .pTitle {
   font-size: 50px;

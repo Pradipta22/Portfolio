@@ -1,0 +1,57 @@
+<div class="rTitle">
+        <p>Education</p>
+      </div>
+      <div class="eduBox">
+        <div class="eduText">
+          <span>
+            <h5>2017--2021</h5>
+          </span>
+          <h1>BTECH(ETC)</h1>
+          <h4>Trident Academy of Technology</h4>
+          <h5>Avg-76%</h5>
+        </div>
+        <div class="eduText">
+          <span>
+            <h5>2015--2017</h5>
+          </span>
+          <h1>Science(PCM-IT)</h1>
+          <h4>Gayatri +2 Science College</h4>
+          <h5>Avg-60%</h5>
+        </div>
+        <div class="eduText">
+          <span>
+            <h5>2014--2015</h5>
+          </span>
+          <h1>Matriculation</h1>
+          <h4>St.Thomas Convent School</h4>
+          <h5>Avg-82%</h5>
+        </div>
+      </div>.rTitle {
+       
+        text-align: center;
+        font-size: 60px;
+      }
+      
+      .eduBox {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .eduText {
+        border: 3px solid #262626;
+        background-color: #262626;
+        border-radius: 40px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        width: 300px;
+        height: 300px;
+        padding: 20px 20px;
+        margin: 15px 80px;
+        transition: transform 0.5s;
+      }
+      
+      .eduText:hover {
+        background-color: #ff004f;
+        transform: translatey(-15px);
+      }
